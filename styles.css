@@ -1,0 +1,83 @@
+/* COLOR PALATTE: 
+--carmine-m-p: #dd1c49ff;
+--orange-peel: #fa9a08ff;
+--safety-orange-blaze-orange: #f26a11ff;
+--cinnabar: #eb3e2eff;
+--midnight-blue: #0b1665ff;
+
+$carmine-m-p: rgba(221, 28, 73, 1);
+$orange-peel: rgba(250, 154, 8, 1);
+$safety-orange-blaze-orange: rgba(242, 106, 17, 1);
+$cinnabar: rgba(235, 62, 46, 1);
+$midnight-blue: rgba(11, 22, 101, 1);
+*/
+
+body {
+    background-color: black;
+    color: teal;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h2 {
+    font-family: 'Megrim', cursive;
+    letter-spacing: .7rem;
+}
+
+
+#mainHeader {
+    font-family: 'Gugi', cursive;
+    letter-spacing: 4rem;
+    /* color: tomato; */
+}
+
+.navbar-brand,
+#navIcon {
+    font-family: 'Gugi', cursive;
+}
+
+nav a,
+#navIcon,
+button {
+    color: tomato;
+    font-size: 1.5rem;
+    font-weight: 150;
+}
+
+h2,
+nav a:hover,
+#navIcon,
+li span {
+    color: tomato;
+}
+
+.blurb {
+    line-height: 2.5em;
+}
+
+#projects {
+    font-size: 1.5rem;
+}
+
+#projects a {
+    color: teal;
+}
+
+#icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.navbar.scrolled {
+    background-color: rgba(221, 28, 73, .3);
+    transition: background 350ms;
+}
+
+
+button:focus #icon {
+    transform: rotate(90deg);
+}
+
+#icon:active,
+#icon:focus {
+    transform: rotate(90deg);
+}
